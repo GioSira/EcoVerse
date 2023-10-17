@@ -1,6 +1,6 @@
 # EcoVerse
 
-It is subdivided into 5 folds:
+It is divided into 5 folds:
 
   - original: it contains the annotation of Annotator I and Annotator II in json format;
   - clean_url_and_tag: the dataset of Annotator II divied into training, evaluation and testset. We removed URLs and users;
