@@ -7,3 +7,7 @@ It is divided into 5 folds:
   - no_climatescam: cleanurlandtag without the hashtag #climatescam;
   - no_environment: cleanurlandtag  without the hashtag #environment;
   - no_environment_no_climatescam: the clean_url_and_tag dataset without the hashtags 
+
+# License
+
+EcoVerse © 2023 is licensed under Attribution-ShareAlike 4.0 International 
