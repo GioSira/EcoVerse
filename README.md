@@ -8,7 +8,7 @@ It is divided into 5 folds:
   - no_environment: cleanurlandtag  without the hashtag #environment;
   - no_environment_no_climatescam: the clean_url_and_tag dataset without the hashtags
 
-Data are displayed as required by https://developer.twitter.com/en/developer-terms/more-on-restricted-use-cases
+Data are organized as required by https://developer.twitter.com/en/developer-terms/more-on-restricted-use-cases
 
 # License
 
