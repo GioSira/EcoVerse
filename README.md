@@ -10,6 +10,10 @@ It is divided into 5 folds:
 
 Data are organized as required by https://developer.twitter.com/en/developer-terms/more-on-restricted-use-cases
 
+# Code
+
+The notebook file contains the code to train and evaluate Bert-based models on our proposed dataset.
+
 # License
 
 EcoVerse © 2023 is licensed under Attribution-ShareAlike 4.0 International 
