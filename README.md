@@ -13,6 +13,8 @@ the events or behaviors they discuss, and detect the author's stance towards the
 the development of NLP models that can better understand and analyze ecological narratives, thus supporting 
 policy-making and public awareness efforts.
 
+**Guidelines Availability**: We made the dataset annotation guidelines available upon request. Please feel free to request the annotation guidelines by writing to: fr.grasso@unito.it.
+
 ## Dataset Description
 
 ### Data Format
