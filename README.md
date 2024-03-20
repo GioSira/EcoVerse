@@ -1,4 +1,4 @@
-# EcoVerse: An Annotated Twitter Dataset for Eco-Relevance Classification
+# EcoVerse: An Annotated Twitter Dataset for Eco-Relevance Classification, Environmental Impact Analysis, and Stance Detection
 
 EcoVerse is a comprehensive annotated English Twitter dataset, consisting of 3,023 tweets, curated to advance research 
 in eco-relevance classification, environmental impact analysis, and stance detection. This dataset stems from an urgent 
