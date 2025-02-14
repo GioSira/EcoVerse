@@ -18,6 +18,9 @@ policy-making and public awareness efforts.
 ## Dataset Description
 
 ### Data Format
+EcoVerse is distributed in compliance with Twitter Developer Terms: https://developer.twitter.com/en/developer-terms/more-on-restricted-use-cases
+Note: Due to licensing restrictions, the dataset only provides **tweet IDs** and their annotations.Users must retrieve the original tweet text using the Twitter API.
+
 The EcoVerse dataset is organized into five distinct folds, each serving a specific research need:
 
 - `original`: Contains the annotations from Annotator I and Annotator II in JSON format.
@@ -26,15 +29,14 @@ The EcoVerse dataset is organized into five distinct folds, each serving a speci
 - `no_environment`: A version of `clean_url_and_tag` without the hashtag #environment.
 - `no_environment_no_climatescam`: The `clean_url_and_tag` dataset excluding both hashtags #environment and #climatescam.
 
-Data are organized as required by https://developer.twitter.com/en/developer-terms/more-on-restricted-use-cases
-
+### Field Descriptions
 Each line in the JSON files has the following structure:
 
-- **twitter_id**: The unique identifier for the tweet as assigned by Twitter.
-- **id**: An internal unique identifier for the annotated tweet within the dataset.
-- **greenyesno**: A label indicating whether the tweet is eco-related or not. Possible values include "Eco-related" and "Not eco-related".
-- **sentiment**: The sentiment expressed in the tweet. This field is null if the tweet is not eco-related.
-- **stance**: The stance of the tweet regarding the environmental topic discussed. This field is null if the tweet is not eco-related.
+- **twitter_id**: The tweet ID, used to retrieve its content via the Twitter API.
+- **annotator**: The ID of the annotator (1 or 2) who assigned the label
+- **greenyesno**: Indicates whether the tweet is **Eco-related** or **Not eco-related**.
+- **sentiment**: The environmental impact conveyed by the tweet (only for eco-related tweets)
+- **stance**: The author's stance on the discussed environmental topic (only for eco-related tweets)
 
 ### Code
 We provide a Jupyter notebook that contains the code to train and evaluate BERT-based models using the EcoVerse dataset. 
