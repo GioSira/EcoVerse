@@ -41,6 +41,13 @@ We provide a Jupyter notebook that contains the code to train and evaluate BERT-
 The models include, but are not limited to, ClimateBERT, and demonstrate the efficacy of the dataset in training models
 specifically tailored for environmental texts.
 
+## Citation
+You can find the full paper in this repository under `EcoVerse.pdf`.
+
+If you use EcoVerse in your research, please cite:
+
+> Francesca Grasso, Stefano Locci, Giovanni Siragusa, and Luigi Di Caro. 2024. EcoVerse: An Annotated Twitter Dataset for Eco-Relevance Classification, Environmental Impact Analysis, and Stance Detection. In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), pages 5461–5472, Torino, Italia. ELRA and ICCL.
+
 ## License
 EcoVerse © 2023 is licensed under the Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license. This means you 
 are free to share, copy, distribute, and transmit the work or to adapt it, provided you attribute it appropriately, 
